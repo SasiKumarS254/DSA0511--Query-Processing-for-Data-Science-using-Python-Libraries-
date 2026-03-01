@@ -1,0 +1,4 @@
+import matplotlib.pyplot as plt
+plt.subplot(2,1,1);plt.plot([1,2,3],[1,4,9])
+plt.subplot(2,1,2);plt.plot([1,2,3],[2,3,5])
+plt.show()
