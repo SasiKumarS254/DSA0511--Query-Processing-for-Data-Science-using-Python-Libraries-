@@ -1,0 +1,5 @@
+import pandas as pd,matplotlib.pyplot as plt
+df=pd.read_csv("alphabet.csv",parse_dates=["Date"])
+d=df[(df["Date"]>"2020-01-01")&(df["Date"]<"2020-12-31")]
+plt.bar(d["Date"],d["Volume"])
+plt.show()
