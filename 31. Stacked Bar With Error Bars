@@ -1,0 +1,9 @@
+import numpy as np,matplotlib.pyplot as plt
+m=[22,30,35,35,26]
+w=[25,32,30,35,29]
+ms=[4,3,4,1,5]
+ws=[3,5,2,3,3]
+x=np.arange(len(m))
+plt.bar(x,m,yerr=ms)
+plt.bar(x,w,bottom=m,yerr=ws)
+plt.show()
