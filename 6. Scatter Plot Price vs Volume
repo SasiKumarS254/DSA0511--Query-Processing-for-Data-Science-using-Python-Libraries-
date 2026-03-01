@@ -1,0 +1,4 @@
+import pandas as pd,matplotlib.pyplot as plt
+df=pd.read_csv("alphabet.csv")
+plt.scatter(df["Volume"],df["Close"])
+plt.show()
