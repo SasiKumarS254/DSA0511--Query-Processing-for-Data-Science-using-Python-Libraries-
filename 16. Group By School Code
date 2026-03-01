@@ -1,0 +1,4 @@
+import pandas as pd
+df=pd.DataFrame({"school":["s1","s1","s2"],"age":[10,12,11]})
+g=df.groupby("school")
+print(type(g))
