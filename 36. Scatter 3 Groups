@@ -1,0 +1,6 @@
+import numpy as np,matplotlib.pyplot as plt
+for _ in range(3):
+ x=np.random.rand(20)
+ y=np.random.rand(20)
+ plt.scatter(x,y)
+plt.show()
