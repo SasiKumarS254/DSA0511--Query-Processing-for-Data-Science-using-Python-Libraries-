@@ -1,0 +1,5 @@
+import matplotlib.pyplot as plt
+plt.plot([1,2,3],[1,4,9],linewidth=2,label="A")
+plt.plot([1,2,3],[2,3,5],linewidth=4,label="B")
+plt.legend()
+plt.show()
